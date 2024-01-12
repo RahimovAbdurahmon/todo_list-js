@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    padding: 0px 300px;
+    background-color: rgb(248, 186, 70);
+}
+body{
+    padding: 10px;
+    height: auto;
+    background-color: rgb(116, 83, 21);
+    box-shadow: 10px 10px 100px black;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.date{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(22, 192, 22);
+}
+.time{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: rgb(43, 46, 2);
+}
+.top{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.inpSearch{
+    width: 150px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: 2px solid gray;
+}
+.inpAdd{
+    padding: 8px 10px;
+    width: 300px;
+    font-size: 15px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: white;
+    border: 2px solid gray;
+    margin-left: 5px;
+}
+.btnAdd{
+    padding: 4px 15px;
+    font-size: 20px;
+    background-color: orange;
+    color: black;
+    border: 2px solid orange;
+    margin-left: -3px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btnAdd:hover{
+    background-color: rgb(179, 125, 27);
+    cursor: pointer;
+}
+.twoButton{
+    display: flex;
+    margin: 30px 200px;
+    gap: 50px;
+}
+.btnRemove{
+    padding: 5px 30px;
+    background-color: blue;
+    color: black;
+    font-size: 18px;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+.btnRemove:hover{
+    background-color: rgb(17, 17, 211);
+}
+.btnSort{
+    padding: 5px 20px;
+    background-color: rgb(15, 189, 15);
+    color: black;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgb(15, 189, 15);
+}
+.btnSort:hover{
+    background-color: rgb(6, 143, 6);
+}
+th{
+    color: rgb(7, 167, 7);
+}
+table{
+    border: 1px solid yellow;
+    border-radius: 10px;
+    margin: 0px 100px;
+}
+.thId{
+    padding: 10px;
+    border-bottom: 1px solid yellow;
+}
+.thName{
+    padding: 10px 120px;
+    border-bottom: 1px solid yellow;
+}
+.thButton{
+    padding: 10px 80px;
+    border-bottom: 1px solid yellow;
+}
+.tdId{
+    padding: 10px;
+    border-bottom: 1px solid yellow;
+    font-size: 20px;
+    color: white;
+}
+.tdName{
+    padding: 10px;
+    border-bottom: 1px solid yellow;
+    font-size: 20px;
+    color: white;
+}
+.tdButton{
+    padding: 10px;
+    border-bottom: 1px solid yellow;
+}
+.btnDelete{
+    padding: 3px 12px;
+    font-size: 16px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border: 1px solid red;
+}
+.btnDelete:hover{
+    background-color: rgb(206, 7, 7);
+}
+.btnEdit{
+    padding: 3px 12px;
+    font-size: 16px;
+    color: white;
+    background-color: lawngreen;
+    border-radius: 20px;
+    border: 1px solid lawngreen;
+    margin-left: 10px;
+}
+.btnEdit:hover{
+    background-color: rgb(103, 201, 5);
+}
+.btnEditDialog{
+    padding: 3px 12px;
+    font-size: 16px;
+    color: white;
+    background-color: lawngreen;
+    border-radius: 20px;
+    border: 1px solid lawngreen;
+    margin-left: 10px;
+}
+.btnEditDialog:hover{
+    background-color: rgb(103, 201, 5);
+}
+.dialogEdit{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+    margin: 200px;
+    margin-left: 500px;
+}
+.closeEdit:hover{
+    color: gray;
+    cursor: pointer;
+}
+.inpEditName{
+    padding: 6px 10px;
+}
+.btnInfo{
+    padding: 3px 12px;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: orange;
+    border: 1px solid orange;
+}
+.btnInfo:hover{
+    background-color: rgb(204, 136, 8);
+    cursor: pointer;
+}
+.dialogInfo{
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    margin: 200px;
+    margin-left: 500px;
+    box-shadow: 1px 1px 10px black;
+    color: white;
+}
+.closeInfo:hover{
+    color: gray;
+    cursor: pointer;
+}

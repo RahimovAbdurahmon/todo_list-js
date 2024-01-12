@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="date"></div>
+    <div class="time"></div>
+    <div class="top">
+        <input type="text" class="inpSearch" placeholder="search...">
+        <div>
+            <input type="text" class="inpAdd" placeholder="Enter the Name...">
+            <button class="btnAdd">ADD</button>
+        </div>
+    </div>
+    <div class="twoButton">
+        <button class="btnRemove">Remove Dublicat</button>
+        <button class="btnSort">Sort</button>
+    </div>
+    <table class="table">
+        <thead class="thead">
+            <th class="thId">ID</th>
+            <th class="thName">NAME</th>
+            <th class="thButton">BUTTON</th>
+        </thead>
+        <tbody class="tbody"></tbody>
+    </table>
+
+    <dialog class="dialogEdit">
+        <div style="display: flex;justify-content: space-between;align-items: center;margin-bottom: 10px;">
+            <h3>Edit User</h3>
+            <h1 class="closeEdit">&times;</h1>
+        </div>
+        <input type="text" class="inpEditName" placeholder="Enter your name" required>
+        <button class="btnEdit">Save</button>
+    </dialog>
+
+    <dialog class="dialogInfo">
+        <div style="display: flex;justify-content: space-between;align-items: center;margin-bottom: 10px;">
+            <h3>About User</h3>
+            <h1 class="closeInfo">&times;</h1>
+        </div>
+        <h3 class="infoName"></h3>
+    </dialog>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./file.js/main.js" type="module"></script>
+</body>
+</html>
